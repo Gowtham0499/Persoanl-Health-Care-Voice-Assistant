@@ -161,7 +161,7 @@ recognition.addEventListener('result', (e) => {
   }
   else{
   var json = "";
-  var url = "https://translation.googleapis.com/language/translate/v2?key=AIzaSyALVDyli35OvnGJtXHoc1-0Qj5KmwCXgQs";
+  var url = "https://translation.googleapis.com/language/translate/v2?key=Your API Key";
   url += "&source=" + recognition.lang.substring(0, 2);
   url += "&target=en";
   url += "&q=" + speechtext;
@@ -213,7 +213,7 @@ socket.on('bot reply', function(replyText) {
   }
   else{
   var json1 = "";
-  var url1 = "https://translation.googleapis.com/language/translate/v2?key=AIzaSyALVDyli35OvnGJtXHoc1-0Qj5KmwCXgQs";
+  var url1 = "https://translation.googleapis.com/language/translate/v2?key=Your API Key";
   url1 += "&source=en";
   url1 += "&target=" + recognition.lang.substring(0, 2);
   url1 += "&q=" + replyText;
