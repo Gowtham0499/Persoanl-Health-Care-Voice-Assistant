@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "google-tts-api": "0.0.4",
     "google-tts-languages": "^1.0.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "socketio": "^1.0.0"
   }
 }
